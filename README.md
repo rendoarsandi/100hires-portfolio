@@ -6,7 +6,7 @@ This repository serves as a highly structured, automated research database dedic
 
 ## 📋 Table of Contents
 1. [Selected Research Topic](#selected-research-topic)
-2. [Expert Roster](#expert-roster)
+2. [Why We Chose These Experts](#why-we-chose-these-experts)
 3. [Repository Structure](#repository-structure)
 4. [Technical Setup & Automation Scripts](#technical-setup--automation-scripts)
 5. [Installation & Execution](#installation--execution)
@@ -20,21 +20,30 @@ We chose this topic due to its high business impact and the technical maturity o
 
 ---
 
-## 👥 Expert Roster
-We collected insights from 10 genuine practitioners who actively run outreach agencies, build cold email software, or consult for fast-growing SaaS startups:
+## 👥 Why We Chose These Experts
 
-1.  **Will Allred**: Co-founder of Lavender. Expert on email writing psychology and mobile reader readability.
-2.  **Alex Berman**: Founder of Omni.us & LTV Machine. Industry veteran in high-volume, templated cold email campaigns.
-3.  **Eric Nowoslawski**: Founder of Growthrinse. Expert in programmatic scraping, API enrichment, and technical domain configuration.
-4.  **Jed Mahrle**: Creator of Practical Prospecting. Actionable daily prospecting playbooks and objection handling.
-5.  **Josh Braun**: Sales trainer. Pioneer of the problem-centric, friction-free "Poke the Bear" framework.
-6.  **Nick Abraham**: Founder of Quicklines & Leadbird. Outbound infrastructure scaling (DNS, domain rotation, and deliverability limits).
-7.  **Guillaume Moubeche**: CEO of Lemlist. Pioneer of multi-channel outreach, warm-up tools, and personalized media integration.
-8.  **Jesse Ouellette**: Founder of LeadMagic. Deep infrastructure expert specializing in email delivery, DNS records, and cost-of-acquisition modeling.
-9.  **Florian Decludt**: Outbound consultant. Writes highly detailed script teardowns and before-and-after sequence improvements.
-10. **Justin Michael**: Creator of the Justin Michael Method (JMM). Focuses on high-frequency, multi-channel outbound systems ("Neuro-Map").
+We collected insights and data from 10 genuine practitioners who actively run outreach agencies, build cold email software, or consult for fast-growing SaaS startups, rather than just writing theory about GTM:
 
-For a detailed annotation of why each expert was selected, read [/research/sources.md](file:///C:/Users/DELL/Documents/antigravity/beautiful-hopper/research/sources.md).
+1.  **Will Allred** (Co-founder, Lavender)
+    *   *Why Chosen*: Will analyzes millions of cold emails daily through Lavender's data engine, providing empirical insights on writing style, word counts, and formatting mistakes.
+2.  **Alex Berman** (Founder, Omni.us)
+    *   *Why Chosen*: Alex has sent millions of cold emails and has extensive public agency playbooks, making him a primary source for scaling outbound templates.
+3.  **Eric Nowoslawski** (Founder, Growthrinse)
+    *   *Why Chosen*: Eric represents the highly technical side of modern outreach, showing practitioners how to scrape data programmatically and build highly targeted trigger-based lists.
+4.  **Jed Mahrle** (Creator, Practical Prospecting)
+    *   *Why Chosen*: Jed scaled outbound pipelines at PandaDoc and Mailgun. He shares highly tactical, ground-level playbooks for SDRs and BDRs.
+5.  **Josh Braun** (Founder, Sales Training)
+    *   *Why Chosen*: Josh is a leading sales trainer who created the problem-centric, friction-free "Poke the Bear" framework to start sales conversations naturally.
+6.  **Nick Abraham** (Founder, Quicklines & Leadbird)
+    *   *Why Chosen*: Nick runs a massive agency and multiple software tools, providing raw technical advice on inbox deliverability, domain warming, and DNS configurations.
+7.  **Guillaume Moubeche** (CEO, Lemlist)
+    *   *Why Chosen*: Guillaume pioneered personalized image and landing page variables in cold email, making him an authority on standing out in crowded inboxes.
+8.  **Jesse Ouellette** (Founder, LeadMagic)
+    *   *Why Chosen*: Jesse is a deep deliverability researcher specializing in ESP inboxing algorithms, tracking domains, and security protocols.
+9.  **Florian Decludt** (Founder, SalesDesk)
+    *   *Why Chosen*: Florian writes highly detailed, before-and-after outbound script teardowns that demonstrate copy clarity.
+10. **Justin Michael** (Creator, Justin Michael Method)
+    *   *Why Chosen*: Justin is an authority on high-frequency, multi-channel outbound systems ("Neuro-Map") combining phone, email, and social touches.
 
 ---
 
@@ -56,6 +65,8 @@ The database is structured as follows:
     │   ├── alex_berman/
     │   ├── josh_braun/
     │   └── ...
+    └── other/
+        └── outreach-tools-stack.md # Modern outreach sales tech stack overview
     └── scripts/
         ├── fetch_transcripts.js    # Node.js script to dynamically fetch YouTube transcripts
         ├── process_posts.js        # Node.js script to parse and format raw LinkedIn JSON posts
