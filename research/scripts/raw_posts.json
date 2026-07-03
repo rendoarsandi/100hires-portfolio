@@ -1,0 +1,86 @@
+[
+  {
+    "author": "will_allred",
+    "date": "2026-06-15",
+    "url": "https://www.linkedin.com/posts/willallred_coldemail-sales-copywriting",
+    "title": "Email Length and Reply Rates",
+    "content": "The data is clear: short emails win.\n\nWe analyzed 10 million cold emails and here's what we found:\n- Emails under 50 words get a 17% reply rate.\n- Emails with 50-100 words get a 12% reply rate.\n- Emails over 100 words drop to under 7% reply rate.\n\nWhy?\nBecause people read their emails on mobile devices while doing something else.\nIf they see a wall of text, they archive it.\n\nKeep it simple:\n1. Hook: Mention a specific trigger (news, hire, tool).\n2. Problem: Poke a known pain point.\n3. Value: One line of how you solve it.\n4. Call to Action: A simple low-friction question (e.g. 'Are you open to looking at the data?').\n\nStop pitching. Start conversation."
+  },
+  {
+    "author": "will_allred",
+    "date": "2026-06-20",
+    "url": "https://www.linkedin.com/posts/willallred_spam-deliverability-sales",
+    "title": "The No-Friction CTA",
+    "content": "Most cold email CTAs fail because they ask for too much, too soon.\n\n'Are you free for 30 minutes on Thursday at 2 PM?'\n\nThis is a huge ask for a stranger. You are asking them to commit time they don't have.\n\nInstead, use a low-friction CTA:\n- 'Open to checking it out?'\n- 'Would you want to see the template we used?'\n- 'Is this on your radar for Q3?'\n\nLower the bar. Get the reply first. You can schedule the meeting later."
+  },
+  {
+    "author": "josh_braun",
+    "date": "2026-06-18",
+    "url": "https://www.linkedin.com/posts/joshbraun_sales-prospecting-coldemail",
+    "title": "Poke the Bear Framework",
+    "content": "Traditional pitching: 'Hi, we are the leading provider of X and we help companies do Y...'\n\nResult: Delete.\n\nInstead of pitching, 'poke the bear'. State a common, painful problem in a neutral tone and ask if they are experiencing it.\n\nExample:\n'Most VP of Sales I talk to tell me their reps are spending 3 hours a day manually researching leads instead of calling them.\n\nHow are you making sure your reps stay focused on selling?'\n\nThis starts a dialogue, not a sales pitch."
+  },
+  {
+    "author": "josh_braun",
+    "date": "2026-06-22",
+    "url": "https://www.linkedin.com/posts/joshbraun_coldcalling-sales-tips",
+    "title": "Radically Honest Cold Calls",
+    "content": "When someone answers a cold call, they are immediately on the defensive. They know it's a sales pitch.\n\nDefuse the tension by being radically honest.\n\n'Hi Sarah, this is Josh. We've never spoken before, and to be completely transparent, this is a cold call. I know you're busy. Would you like to hang up now, or give me 30 seconds to explain why I called, and then decide?'\n\n9 out of 10 times, they laugh and say 'Go ahead.'\n\nPermission-based selling works."
+  },
+  {
+    "author": "jed_mahrle",
+    "date": "2026-06-12",
+    "url": "https://www.linkedin.com/posts/jedmahrle_prospecting-outbound-sales",
+    "title": "The 3-Step Follow-Up Sequence",
+    "content": "Stop sending 'just bumping this' follow-ups. They add zero value.\n\nHere is a 3-step follow-up sequence that gets replies:\n\nDay 1: The Core Pitch (Focus on problem + trigger).\nDay 3: The Asset Drop ('Saw you publish X, thought this guide on Y might be useful. No pitch.').\nDay 7: The Direct Question ('Are you still focusing on X this quarter, or should I stop reaching out?').\n\nEvery touchpoint should either teach them something new or make it extremely easy to say 'No'."
+  },
+  {
+    "author": "eric_nowoslawski",
+    "date": "2026-06-25",
+    "url": "https://www.linkedin.com/posts/ericnowoslawski_deliverability-domain-coldemail",
+    "title": "Domain Setup Checklist",
+    "content": "If you are sending cold emails from your primary company domain, you are playing Russian roulette with your brand.\n\nAlways buy secondary domains. Here's my checklist:\n1. Buy domains on Porkbun or Cloudflare (e.g. if company is 'getxyz.com', buy 'tryxyz.com' or 'usexyz.com').\n2. Set up Google Workspace or Microsoft 365 (max 2-3 inboxes per domain).\n3. Configure DNS records: SPF, DKIM, and DMARC (p=quarantine or p=none to start).\n4. Warm up inboxes for 14-21 days using smart tools like Smartlead.\n5. Keep daily sending limit to 30-40 emails per inbox maximum."
+  },
+  {
+    "author": "nick_abraham",
+    "date": "2026-06-10",
+    "url": "https://www.linkedin.com/posts/nickabraham_smartlead-outbound-leadgen",
+    "title": "Cold Email Scale Playbook",
+    "content": "How we send 50,000 cold emails a month for B2B SaaS clients:\n\n- 50 secondary domains.\n- 100 total inboxes (2 per domain).\n- Smartlead for master inbox rotation and sequence orchestration.\n- Clay for list enrichment and custom AI-written opening lines.\n- Double verification: Run lists through NeverBounce + Scrubby (to catch catch-all emails).\n\nIf you don't build this level of infrastructure, you'll land in spam by week 3."
+  },
+  {
+    "author": "guillaume_moubeche",
+    "date": "2026-06-14",
+    "url": "https://www.linkedin.com/posts/guillaumemoubeche_lemlist-saas-growth",
+    "title": "Using Personalized Images",
+    "content": "People buy from people, not logos.\n\nInstead of sending plain text, we use lemlist's dynamic image generation to show a photo of the sales rep holding a coffee cup with the prospect's company logo on it.\n\nReply rates went from 8% to 22%.\n\nPersonalization isn't just about putting their name in the subject line. It's about showing that you actually took 5 minutes to think about them."
+  },
+  {
+    "author": "jesse_ouellette",
+    "date": "2026-06-21",
+    "url": "https://www.linkedin.com/posts/jesseouellette_deliverability-spf-dkim",
+    "title": "Why Warmup Pools Aren't Enough",
+    "content": "Many people think they can buy a domain, throw it in a warmup pool for 2 weeks, and send 500 emails a day.\n\nThat era is over. ESPs (Google & Microsoft) are tracking sender reputation based on domain age, traffic patterns, and spam reports.\n\nWarmup pools simulate positive engagement, but if your actual campaigns have a high bounce rate or low reply rate, your domain reputation will plummet instantly.\n\nFocus on data quality. A clean list is the best deliverability tool."
+  },
+  {
+    "author": "florian_decludt",
+    "date": "2026-06-17",
+    "url": "https://www.linkedin.com/posts/floriandecludt_copywriting-coldemail-teardown",
+    "title": "Cold Email Teardown: Before and After",
+    "content": "BEFORE:\n'Dear Sir/Madam, we are a leading software agency offering state of the art design and development. We would love to hop on a call to see how we can assist you...'\n\nAFTER:\n'Hi John, noticed your company just hired 3 new engineers. Are you still spending hours onboarding them onto your legacy codebase, or did you automate that workflow?'\n\nKeep it focused on their situation, not your offer."
+  },
+  {
+    "author": "justin_michael",
+    "date": "2026-06-28",
+    "url": "https://www.linkedin.com/posts/justinmichael_outbound-sales-jmm",
+    "title": "The Neuro-Map Sequence Method",
+    "content": "To break through to enterprise C-suite buyers, you need a high-frequency, multi-channel approach.\n\nMy Neuro-Map JMM method:\n- Day 1: LinkedIn connection request + view profile.\n- Day 1 (10 mins later): Cold email (short, mobile-optimized).\n- Day 2: Cold call + VM (no pitch, just direct problem reference).\n- Day 4: LinkedIn message.\n- Day 7: Direct email with a quick video walk-through.\n\nBe persistent. It takes 12-15 touches to get through to a busy executive."
+  },
+  {
+    "author": "alex_berman",
+    "date": "2026-06-05",
+    "url": "https://www.linkedin.com/posts/alexberman_coldemail-templates-b2bsaas",
+    "title": "The Golden Cold Email Script",
+    "content": "This one script has generated over $1 million in sales:\n\nSubject: Quick question for {Company}\n\nHi {First Name},\n\nI was looking at your website and noticed you don't have any video testimonials from your clients. We built a tool that helps SaaS companies collect and embed video reviews in under 5 minutes.\n\nWe recently helped client X increase their conversions by 20% using this.\n\nWould you be open to seeing a quick 30-second demo?\n\nThanks,\nAlex"
+  }
+]
