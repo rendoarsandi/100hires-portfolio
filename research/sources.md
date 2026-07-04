@@ -8,7 +8,7 @@ This document lists the 10 selected experts and practitioners in B2B SaaS cold o
 *   **Role**: Co-founder at Lavender (AI Cold Email Writing Assistant)
 *   **Social Profiles**: 
     *   [LinkedIn](https://www.linkedin.com/in/willallred/)
-    *   [YouTube (Lavender)](https://www.youtube.com/@lavender-ai)
+    *   [Website (Lavender)](https://www.lavender.ai/)
 *   **Primary Expertise**: Cold email psychology, writing optimization, and data-backed email feedback loops.
 *   **Why Chosen**: Will analyzes millions of cold emails daily through Lavender's data. He publishes daily tactical breakdowns of subject lines, personalization frameworks, and writing mistakes on LinkedIn.
 *   **Collected Content**:
@@ -29,10 +29,10 @@ This document lists the 10 selected experts and practitioners in B2B SaaS cold o
     *   [YouTube Video - 1ixND6YoJIU](https://youtu.be/1ixND6YoJIU): "How To Cold Email Clients" (Walkthrough of winning cold email templates).
 
 ### 3. Eric Nowoslawski
-*   **Role**: Founder of Growthrinse (Outbound Ops Agency)
+*   **Role**: Founder of Growth Engine X (GTM & Outbound Automation Agency)
 *   **Social Profiles**:
-    *   [LinkedIn](https://www.linkedin.com/in/ericnowoslawski/)
-    *   [YouTube (Growthrinse)](https://www.youtube.com/@growthrinse)
+     *   [LinkedIn](https://www.linkedin.com/in/ericnowoslawski/)
+     *   [YouTube](https://www.youtube.com/@ericnowoslawski)
 *   **Primary Expertise**: Technical email deliverability, custom API scraping, programmatic list building, and database personalization.
 *   **Why Chosen**: Eric represents the highly technical side of modern outreach, teaching practitioners how to scrape data programmatically and build highly targeted lists based on custom web signals.
 *   **Collected Content**:
@@ -42,7 +42,7 @@ This document lists the 10 selected experts and practitioners in B2B SaaS cold o
 *   **Role**: Creator of Practical Prospecting (Former Head of Outbound at Mailgun & PandaDoc)
 *   **Social Profiles**:
     *   [LinkedIn](https://www.linkedin.com/in/jed-mahrle/)
-    *   [Newsletter/Website](https://www.practicalprospecting.co/)
+    *   [Newsletter/Website](https://practicalprospecting.io/)
 *   **Primary Expertise**: Outbound sales playbooks, multi-channel cadences, and objection handling.
 *   **Why Chosen**: Jed is a practitioner who scaled outbound pipelines for major SaaS companies like PandaDoc and Mailgun. His playbooks focus on practical daily prospecting habits for SDRs/BDRs.
 *   **Collected Content**:
@@ -65,7 +65,7 @@ This document lists the 10 selected experts and practitioners in B2B SaaS cold o
 *   **Role**: Founder of Quicklines (AI personalization), Scrubby (Email verification), and Leadbird (Outbound agency)
 *   **Social Profiles**:
     *   [LinkedIn](https://www.linkedin.com/in/nick-abraham-leadbird/)
-    *   [YouTube](https://www.youtube.com/@NickAbraham1)
+    *   [YouTube](https://www.youtube.com/@NickAbraham)
 *   **Primary Expertise**: Scale infrastructure, cold email setup (domains, ESPs, warmups), and AI-based list generation.
 *   **Why Chosen**: Nick runs multiple software platforms in the outbound space and an agency that manages outreach for hundreds of clients. His content covers the raw technical plumbing required to get emails into the inbox.
 *   **Collected Content**:
@@ -92,7 +92,7 @@ This document lists the 10 selected experts and practitioners in B2B SaaS cold o
     *   [LinkedIn Post - 2026-06-21](https://www.linkedin.com/posts/jesseouellette_deliverability-spf-dkim): "Why Warmup Pools Aren't Enough" (Domain reputation mechanics vs. simple warmups).
 
 ### 9. Florian Decludt
-*   **Role**: Founder of SalesDesk
+*   **Role**: B2B Product Marketer, Copywriter, and Outbound Consultant (Former Product Marketing Lead at Clutch)
 *   **Social Profiles**:
     *   [LinkedIn](https://www.linkedin.com/in/floriandecludt/)
 *   **Primary Expertise**: Cold email sequence structure, script copywriting, and outbound sales playbooks.

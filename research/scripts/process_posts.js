@@ -12,6 +12,10 @@ function slugify(text) {
     .replace(/-+$/, '');            // Trim - from end
 }
 
+function sanitizePathSegment(name) {
+  return name.replace(/[^a-zA-Z0-9_-]/g, '');
+}
+
 function processPosts() {
   const rawPostsFile = path.join('research', 'scripts', 'raw_posts.json');
   const baseDir = path.join('research', 'linkedin-posts');
@@ -35,14 +39,19 @@ function processPosts() {
     const title = post.title;
     const content = post.content;
 
-    const authorDir = path.join(baseDir, author);
+    const safeAuthor = sanitizePathSegment(author);
+    const authorDir = path.join(baseDir, safeAuthor);
     fs.mkdirSync(authorDir, { recursive: true });
 
     const slugTitle = slugify(title || `post-${index}`);
     const outputFile = path.join(authorDir, `${date}-${slugTitle}.md`);
 
-    let markdownContent = `---\ntitle: "${title}"\n`;
-    markdownContent += `author: "${author.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase())}"\n`;
+    const escapedTitle = title.replace(/"/g, '\\"');
+    const formattedAuthor = author.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+    const escapedAuthor = formattedAuthor.replace(/"/g, '\\"');
+
+    let markdownContent = `---\ntitle: "${escapedTitle}"\n`;
+    markdownContent += `author: "${escapedAuthor}"\n`;
     markdownContent += `date: "${date}"\n`;
     markdownContent += `source_url: "${url}"\n---\n\n`;
     markdownContent += `# ${title}\n\n`;
@@ -60,3 +69,4 @@ function processPosts() {
 }
 
 processPosts();
+
